@@ -1,0 +1,59 @@
+body{
+margin:0;
+padding:0;
+background-color:blue;
+}
+a{
+	text-decoration:none;
+	color:#56588;
+	font-size:30px;
+}
+header{
+	background:linear-gradient(to right, white, blue);
+	padding:10px;
+}
+body{
+color:white;	
+}
+
+form{
+	margin-left:30px;
+	}
+	a:hover{
+		color:red;
+	}	
+	input:valid{
+		background:lightgreen;
+	}
+	input:invalid{
+		background:red;
+	}
+	input:focus{
+		border:2px solid green;
+	}
+	
+	input[type=submit]{
+	background:
+	linear-gradient(to right,firebrick,blue);
+	color:white;
+	border:none;
+	padding:10px;
+}
+input[type=reset]{
+	background:
+	linear-gradient(to right,firebrick,blue);
+	color:white;
+	border:none;
+	padding:10px;
+	
+}
+input[type=reset]:hover{
+	background:
+	linear-gradient(to left,firebrick,blue);
+	
+}
+input[type=submit]:hover{
+	background:
+	linear-gradient(to left,firebrick,blue);
+	
+}
