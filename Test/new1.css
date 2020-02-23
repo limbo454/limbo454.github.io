@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	}
+main{
+	background:url("divback.png")#e8f0e5;
+	background-size:50%;
+	background-repeat:no-repeat;
+	width:98%;
+	height:400px;
+	padding:1%;
+	background-position:95%;
+}
+.w-60{
+float:left;
+width:60%;
+height:100%;
+}
+.w-40{
+float:left;
+width:40%;
+height:100%;
+}
+
+#qwerty{
+	size:200px;
+}
+article{
+	background: linear-gradient(to right, gray, black);
+	float:left;
+	height:400px;
+	color:white;
+	
+}
+.buttom{
+background-color:black;
+color:white;
+border:black;
+padding: 10px;
+border-radius:30px;
+text-decoration:none;
+}
+.buttom:hover{
+	box-shadow:0 0 10px black;
+}
+.main{
+ height:50px;
+ margin:10px;
+ color:black;
+ 
+}
+nav>a:hover{
+	border-bottom:2px solid black;
+}
+a{
+	color:black;
+}
